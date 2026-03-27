@@ -72,3 +72,7 @@
    ```bash
    git clone [https://github.com/sachumonpsajeev-cyber/PriorityFlow-Angular.git](https://github.com/sachumonpsajeev-cyber/PriorityFlow-Angular.git)
    npm install
+👤 Author
+Sachumon P Sajeev MSc Data Science & AI — TSI University, Riga
+
+LinkedIn · GitHub
