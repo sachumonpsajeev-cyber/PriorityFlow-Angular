@@ -1,23 +1,15 @@
-# 🚀 PriorityFlow: Task Management System
+# 🚀 PriorityFlow-Angular
+A modern, high-performance To-Do application built with **Angular 17+** using **Signals** for reactive state management.
 
-**PriorityFlow** is a high-performance task management application built with **Angular 21** and **TypeScript**. It moves beyond a basic to-do list by implementing reactive state management, persistent storage, and professional UI patterns.
+## ✨ Features
+- **Reactive Signals:** Uses Angular's latest `signal` and `computed` APIs for lightning-fast UI updates.
+- **Priority System:** Categorize tasks by Low, Medium, or High priority with color-coded badges.
+- **Filtering:** Quickly toggle between 'All', 'Active', and 'Done' tasks.
+- **Local Storage:** Your tasks are automatically saved to your browser so you never lose them.
+- **Inline Editing:** Double-click any task to rename it on the fly.
 
----
+## 🛠️ Installation & Setup
 
-## ✨ Key Features
-* **💾 Local Persistence:** Uses the Browser LocalStorage API to ensure tasks remain saved after a page refresh.
-* **🏷️ Priority-Based Categorization:** Tasks are dynamically styled based on 'Low', 'Medium', or 'High' priority levels.
-* **🔍 Reactive Filtering:** Instant UI updates when switching between 'All', 'Active', and 'Completed' task views.
-* **✏️ Inline Editing:** Implements double-click event handling for seamless, on-the-fly task updates.
-* **📱 Responsive Design:** A clean, modern interface built with mobile-first CSS principles.
-
-## 🛠️ Tech Stack
-* **Framework:** Angular 21 (Standalone Components)
-* **Logic:** TypeScript (Service-Oriented Architecture)
-* **Styling:** Modern CSS3 with Dynamic Attribute Binding (`[ngClass]`)
-* **Persistence:** LocalStorage API
-
-## 🚀 Getting Started
 1. **Clone the repo:**
    ```bash
    git clone [https://github.com/sachumonpsajeev-cyber/PriorityFlow-Angular.git](https://github.com/sachumonpsajeev-cyber/PriorityFlow-Angular.git)
