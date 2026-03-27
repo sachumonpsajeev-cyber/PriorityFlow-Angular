@@ -1,11 +1,15 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TodoService } from '../todo'; // Import from the file in your screenshot
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
-export class App {
-  protected readonly title = signal('seb-todo');
+export class AppComponent {
+  // This one line gives the HTML access to all the service functions!
+  constructor(public todoService: TodoService) {}
 }
